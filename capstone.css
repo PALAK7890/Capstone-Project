@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "dot";
+    src: url(DotGothic16/DotGothic16-Regular.ttf);
+}
+@font-face {
+    font-family: "archio";
+    src: url(Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(36, 25, 243, 0.06);
+    padding: 24px 32px;
+    border: 1px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px 0px rgb(190, 190, 190);
+    align-items: center;
+
+
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+    font-family: 'archio';
+
+}
+.heading{
+    font-family: 'dot';
+    font-weight: 400px;
+    font-size: 42px;
+}
+.contact{
+    font-family: 'archio';
+}
+.header{
+    width: 100%;
+    justify-content: center;
+}
+
+.welcome{
+    font-family: 'dot';
+    font-weight: 400px;
+    font-size: 120px;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.big-img {
+    width: 100%;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 8px;
+    width: 100%
+
+}
